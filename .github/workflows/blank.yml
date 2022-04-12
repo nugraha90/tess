@@ -19,5 +19,4 @@ jobs:
 #         env:
 #           SUPER_SECRET: ${{ secrets.SUPER_SECRET }}
         run: |
-          #node index.js
-          sudo lscpu
+          node index.js
